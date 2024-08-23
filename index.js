@@ -2,8 +2,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebas
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
-    databaseURL: "https://listedecourse-4df62-default-rtdb.europe-west1.firebasedatabase.app/"
-}
+	apiKey: "AIzaSyBU7afJDV7uk7SD026bKBZ5TlW4iNClxhY",
+	authDomain: "listedecourse-4df62.firebaseapp.com",
+	databaseURL: "https://listedecourse-4df62-default-rtdb.europe-west1.firebasedatabase.app",
+	projectId: "listedecourse-4df62",
+	storageBucket: "listedecourse-4df62.appspot.com",
+	messagingSenderId: "751834613669",
+	appId: "1:751834613669:web:3203166752678d8d380a4c"
+  };
 
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
